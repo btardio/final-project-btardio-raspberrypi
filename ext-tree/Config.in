@@ -1,0 +1,6 @@
+source "$BR2_EXTERNAL_AESD_ASSIGNMENTS_PATH/package/aesd-assignments-socket/Config.in"
+source "$BR2_EXTERNAL_AESD_ASSIGNMENTS_PATH/package/aesd-assignments-modules/Config.in"
+source "$BR2_EXTERNAL_AESD_ASSIGNMENTS_PATH/package/aesd-assignments-devices/Config.in"
+source "$BR2_EXTERNAL_AESD_ASSIGNMENTS_PATH/package/aesd-assignments-nopivot-containerd/Config.in"
+#source "$BR2_EXTERNAL_AESD_ASSIGNMENTS_PATH/package/libopenssl/Config.in"
+#source "$BR2_EXTERNAL_AESD_ASSIGNMENTS_PATH/package/openssl/Config.in"

@@ -1,0 +1,4 @@
+config BR2_PACKAGE_AESD_ASSIGNMENTS_NOPIVOT_CONTAINERD
+	bool "aesd-assignments-nopivot-containerd"
+	help
+	  AESD nopivot containerd.
