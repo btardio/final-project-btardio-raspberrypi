@@ -1,5 +1,6 @@
 #!/bin/bash
-opkg install http://192.168.1.126/we-three-kings-os_1.1.1_aarch64.ipk
+#opkg install http://192.168.1.126/we-three-kings-os_1.1.1_aarch64.ipk
+opkg install https://btardiopublicbucket.s3.us-west-1.amazonaws.com/we-three-kings-os_1.1.1_aarch64.ipk
 export DOCKER_RAMDISK=true
 /etc/init.d/S30cgroupfs2 start
 /etc/init.d/S60dockerd start
